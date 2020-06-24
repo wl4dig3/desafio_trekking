@@ -1,0 +1,17 @@
+// abstracts
+@import 'abstracts/variables';
+
+// base
+@import 'base/base';
+@import 'base/typography';
+
+// components 
+@import 'components/navbar';
+@import 'components/cards';
+
+// layout
+@import 'layout/grid';
+@import 'layout/section-caracteristicas';
+
+// vendors
+// @import 'vendors/bootstrap-4.5.0/bootstrap.scss';

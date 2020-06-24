@@ -1,0 +1,12 @@
+#Precios .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+#Precios .ancho {
+    max-width: 30%;
+}
+#Precios .card{
+    height: 18rem;
+}
