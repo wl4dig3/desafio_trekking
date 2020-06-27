@@ -1,0 +1,27 @@
+#Precios h1 {
+    text-align: center;
+}
+#Precios .row {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
+// mediaquery
+@media (min-width:768px) {
+    #Precios {
+        // display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(1,500px);
+        align-items: center;
+        column-gap: 10px;
+    }
+    #Precios .card {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #Precios .row .col {
+    width: 50%;
+    }
+}

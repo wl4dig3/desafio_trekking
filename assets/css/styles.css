@@ -1,6 +1,9 @@
 .wrap {
   padding: 0 100px; }
 
+img {
+  width: 100%; }
+
 #Precios .row {
   display: flex;
   flex-direction: row;
@@ -199,15 +202,66 @@
     grid-column: span 1; } }
 #Hero_section {
   width: 100%; }
-  #Hero_section .wrap {
-    padding: 0 100px; }
 
-#Hero_section > div {
-  width: 335px;
-  position: relative;
-  top: 150px; }
+#Hero_section div {
+  width: 280px;
+  margin: 0 auto; }
 
-#Hero_section > img {
+@media (min-width: 768px) {
+  #Hero_section div {
+    width: 280px;
+    position: absolute;
+    top: 150px;
+    left: 125px; } }
+#Caracteristicas .contenedor {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 400px);
+  align-items: center;
+  column-gap: 10px; }
+
+#Caracteristicas h1 {
+  text-align: center; }
+
+#Caracteristicas .caracteristicas__texto {
   width: 100%; }
+
+#Caracteristicas .contenedor {
+  width: 70%;
+  margin: 3rem auto; }
+
+@media (min-width: 768px) {
+  #Caracteristicas .contenedor {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 400px);
+    align-items: center;
+    column-gap: 10px; }
+
+  #Caracteristicas .caracteristicas__texto {
+    width: 100%; }
+
+  #Caracteristicas .contenedor {
+    margin: 0 auto; } }
+#Precios h1 {
+  text-align: center; }
+
+#Precios .row {
+  margin: 0 auto;
+  width: 80%; }
+
+@media (min-width: 768px) {
+  #Precios {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 500px);
+    align-items: center;
+    column-gap: 10px; }
+
+  #Precios .card {
+    width: 80%;
+    margin: 0 auto; }
+
+  #Precios .row .col {
+    width: 50%; } }
 
 /*# sourceMappingURL=styles.css.map */

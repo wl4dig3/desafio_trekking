@@ -1,14 +1,43 @@
-#Hero_section {
+#Caracteristicas .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1,400px);
+    align-items: center;
+    column-gap: 10px;
+}  
+    
+#Caracteristicas h1 {
+    
+    text-align: center;
+}
+#Caracteristicas .caracteristicas__texto {
     width: 100%;
-    .wrap {
-        padding: 0 100px;
+}
+#Caracteristicas .contenedor {
+    width: 70%;
+    margin: 3rem auto;
+}
+
+// Caracteristicas 
+
+@media (min-width:768px){
+    #Caracteristicas .contenedor {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(1,400px);
+        align-items: center;
+        column-gap: 10px;
+}
+        
+       
+    #Caracteristicas .caracteristicas__texto {
+        width: 100%;
     }
+    #Caracteristicas .contenedor{
+        margin: 0 auto;
+    }
+  
+        
+        
 }
-#Hero_section >div {
-    width: 335px;
-    position: relative;
-    top: 150px;
-}
-#Hero_section >img {
-    width: 100%;
-}   
+

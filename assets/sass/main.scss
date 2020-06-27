@@ -3,6 +3,7 @@
 
 // base
 @import 'base/base';
+@import'base/reset';
 @import 'base/typography';
 
 // components 
@@ -11,7 +12,9 @@
 
 // layout
 @import 'layout/grid';
+@import 'layout/hero-section';
 @import 'layout/section-caracteristicas';
+@import 'layout/section-precios';
 
 // vendors
-// @import 'vendors/bootstrap-4.5.0/bootstrap.scss';
+// @import 'vendors/bootstrap-4.5.0/bootstrap-reboot';
