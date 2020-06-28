@@ -1,0 +1,1 @@
+footer{background-color:coral;padding:2rem;width:100%}footer p{text-align:center}@media (min-width: 768px){footer{display:flex;justify-content:space-between}a{padding:0 2rem}p{padding-right:2.5rem}}

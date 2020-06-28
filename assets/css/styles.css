@@ -4,6 +4,10 @@
 img {
   width: 100%; }
 
+h1 {
+  font-family: Raleway;
+  font-weight: 700; }
+
 #Precios .row {
   display: flex;
   flex-direction: row;
@@ -212,7 +216,7 @@ img {
     width: 280px;
     position: absolute;
     top: 150px;
-    left: 125px; } }
+    margin-left: 125px; } }
 #Caracteristicas .contenedor {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -236,19 +240,40 @@ img {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1, 400px);
     align-items: center;
-    column-gap: 10px; }
+    column-gap: 10px;
+    margin: 0 auto; }
 
   #Caracteristicas .caracteristicas__texto {
     width: 100%; }
 
-  #Caracteristicas .contenedor {
-    margin: 0 auto; } }
+  #Caracteristicas {
+    height: 700px; } }
 #Precios h1 {
-  text-align: center; }
+  text-align: center;
+  color: #fff; }
 
 #Precios .row {
   margin: 0 auto;
-  width: 80%; }
+  width: 65%; }
+
+#Precios {
+  background-color: #333745;
+  position: relative; }
+
+#Precios img {
+  position: absolute;
+  top: -80px;
+  z-index: -1; }
+
+#Precios .card-body hr {
+  height: 1px;
+  background-color: darkgray; }
+
+#Precios .card {
+  height: 25rem; }
+
+#Precios .card-body .lis {
+  visibility: hidden; }
 
 @media (min-width: 768px) {
   #Precios {
@@ -261,7 +286,38 @@ img {
     width: 80%;
     margin: 0 auto; }
 
+  #Precios .row {
+    margin-bottom: 2rem;
+    width: 55%; }
+
   #Precios .row .col {
-    width: 50%; } }
+    width: 36%; }
+
+  #Precios img {
+    position: absolute;
+    top: -200px;
+    z-index: -1; } }
+footer {
+  background-color: #221d23;
+  padding: 4rem 2rem;
+  width: 100%; }
+  footer p {
+    text-align: center;
+    color: #fff; }
+  footer a {
+    color: #fff;
+    padding: 1rem; }
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+  a {
+    padding: 0 2rem; }
+
+  p {
+    padding-right: 2.5rem; } }
 
 /*# sourceMappingURL=styles.css.map */

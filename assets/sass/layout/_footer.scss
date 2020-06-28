@@ -1,0 +1,32 @@
+footer {
+    background-color:$raisinblack;
+    padding: 4rem 2rem;
+    width: 100%;
+    
+    
+    
+       p{
+            text-align: center;
+            color: $white;
+        }
+        a {
+            color: $white;
+            padding: 1rem; 
+        }
+        
+}
+// mediaquery
+@media (min-width:768px){
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        a {
+            padding: 0 2rem;
+        }
+        p {
+            padding-right: 2.5rem;
+        }
+}
+        

@@ -1,16 +1,12 @@
 #Hero_section {
   width: 100%;
 }
+
 #Hero_section div {
   width: 280px;
   margin: 0 auto;
-
 }
-// #Hero_section > img {
-//   width: 100%;
-// }
 
-// mediaquery
 @media (min-width: 768px) {
   #Hero_section div {
     width: 280px;

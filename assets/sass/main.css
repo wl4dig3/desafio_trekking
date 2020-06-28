@@ -1,0 +1,408 @@
+.wrap {
+  padding: 0 100px;
+}
+
+img {
+  width: 100%;
+}
+
+#Precios .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+#Precios .ancho {
+  max-width: 30%;
+}
+
+#Precios .card {
+  height: 18rem;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
+
+.col-xs-12 {
+  grid-column: span 12;
+}
+
+.col-xs-11 {
+  grid-column: span 11;
+}
+
+.col-xs-10 {
+  grid-column: span 10;
+}
+
+.col-xs-9 {
+  grid-column: span 9;
+}
+
+.col-xs-8 {
+  grid-column: span 8;
+}
+
+.col-xs-7 {
+  grid-column: span 7;
+}
+
+.col-xs-6 {
+  grid-column: span 6;
+}
+
+.col-xs-5 {
+  grid-column: span 5;
+}
+
+.col-xs-4 {
+  grid-column: span 4;
+}
+
+.col-xs-3 {
+  grid-column: span 3;
+}
+
+.col-xs-2 {
+  grid-column: span 2;
+}
+
+.col-xs-1 {
+  grid-column: span 1;
+}
+
+@media (min-width: 576px) {
+  .col-sm-12 {
+    grid-column: span 12;
+  }
+  .col-sm-11 {
+    grid-column: span 11;
+  }
+  .col-sm-10 {
+    grid-column: span 10;
+  }
+  .col-sm-9 {
+    grid-column: span 9;
+  }
+  .col-sm-8 {
+    grid-column: span 8;
+  }
+  .col-sm-7 {
+    grid-column: span 7;
+  }
+  .col-sm-6 {
+    grid-column: span 6;
+  }
+  .col-sm-5 {
+    grid-column: span 5;
+  }
+  .col-sm-4 {
+    grid-column: span 4;
+  }
+  .col-sm-3 {
+    grid-column: span 3;
+  }
+  .col-sm-2 {
+    grid-column: span 2;
+  }
+  .col-sm-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-12 {
+    grid-column: span 12;
+  }
+  .col-md-11 {
+    grid-column: span 11;
+  }
+  .col-md-10 {
+    grid-column: span 10;
+  }
+  .col-md-9 {
+    grid-column: span 9;
+  }
+  .col-md-8 {
+    grid-column: span 8;
+  }
+  .col-md-7 {
+    grid-column: span 7;
+  }
+  .col-md-6 {
+    grid-column: span 6;
+  }
+  .col-md-5 {
+    grid-column: span 5;
+  }
+  .col-md-4 {
+    grid-column: span 4;
+  }
+  .col-md-3 {
+    grid-column: span 3;
+  }
+  .col-md-2 {
+    grid-column: span 2;
+  }
+  .col-md-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-12 {
+    grid-column: span 12;
+  }
+  .col-lg-11 {
+    grid-column: span 11;
+  }
+  .col-lg-10 {
+    grid-column: span 10;
+  }
+  .col-lg-9 {
+    grid-column: span 9;
+  }
+  .col-lg-8 {
+    grid-column: span 8;
+  }
+  .col-lg-7 {
+    grid-column: span 7;
+  }
+  .col-lg-6 {
+    grid-column: span 6;
+  }
+  .col-lg-5 {
+    grid-column: span 5;
+  }
+  .col-lg-4 {
+    grid-column: span 4;
+  }
+  .col-lg-3 {
+    grid-column: span 3;
+  }
+  .col-lg-2 {
+    grid-column: span 2;
+  }
+  .col-lg-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-12 {
+    grid-column: span 12;
+  }
+  .col-xl-11 {
+    grid-column: span 11;
+  }
+  .col-xl-10 {
+    grid-column: span 10;
+  }
+  .col-xl-9 {
+    grid-column: span 9;
+  }
+  .col-xl-8 {
+    grid-column: span 8;
+  }
+  .col-xl-7 {
+    grid-column: span 7;
+  }
+  .col-xl-6 {
+    grid-column: span 6;
+  }
+  .col-xl-5 {
+    grid-column: span 5;
+  }
+  .col-xl-4 {
+    grid-column: span 4;
+  }
+  .col-xl-3 {
+    grid-column: span 3;
+  }
+  .col-xl-2 {
+    grid-column: span 2;
+  }
+  .col-xl-1 {
+    grid-column: span 1;
+  }
+}
+
+#Hero_section {
+  width: 100%;
+}
+
+#Hero_section div {
+  width: 280px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #Hero_section div {
+    width: 280px;
+    position: absolute;
+    top: 150px;
+    margin-left: 125px;
+  }
+}
+
+#Caracteristicas .contenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -ms-grid-rows: (400px)[1];
+      grid-template-rows: repeat(1, 400px);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+#Caracteristicas h1 {
+  text-align: center;
+}
+
+#Caracteristicas .caracteristicas__texto {
+  width: 100%;
+}
+
+#Caracteristicas .contenedor {
+  width: 70%;
+  margin: 3rem auto;
+}
+
+@media (min-width: 768px) {
+  #Caracteristicas .contenedor {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[12];
+        grid-template-columns: repeat(12, 1fr);
+    -ms-grid-rows: (400px)[1];
+        grid-template-rows: repeat(1, 400px);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+    margin: 0 auto;
+  }
+  #Caracteristicas .caracteristicas__texto {
+    width: 100%;
+  }
+  #Caracteristicas {
+    height: 700px;
+  }
+}
+
+#Precios h1 {
+  text-align: center;
+  color: #fff;
+}
+
+#Precios .row {
+  margin: 0 auto;
+  width: 65%;
+}
+
+#Precios {
+  background-color: #333745;
+  position: relative;
+}
+
+#Precios img {
+  position: absolute;
+  top: -80px;
+  z-index: -1;
+}
+
+#Precios .card-body hr {
+  height: 1px;
+  background-color: darkgray;
+}
+
+#Precios .card {
+  height: 25rem;
+}
+
+#Precios .card-body .lis {
+  visibility: hidden;
+}
+
+@media (min-width: 768px) {
+  #Precios {
+    -ms-grid-columns: (1fr)[12];
+        grid-template-columns: repeat(12, 1fr);
+    -ms-grid-rows: (500px)[1];
+        grid-template-rows: repeat(1, 500px);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+  #Precios .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #Precios .row {
+    margin-bottom: 2rem;
+    width: 55%;
+  }
+  #Precios .row .col {
+    width: 36%;
+  }
+  #Precios img {
+    position: absolute;
+    top: -200px;
+    z-index: -1;
+  }
+}
+
+footer {
+  background-color: #221d23;
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  a {
+    padding: 0 2rem;
+  }
+  p {
+    padding-right: 2.5rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

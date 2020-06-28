@@ -27,14 +27,15 @@
         grid-template-rows: repeat(1,400px);
         align-items: center;
         column-gap: 10px;
+        margin: 0 auto;
 }
         
        
     #Caracteristicas .caracteristicas__texto {
         width: 100%;
     }
-    #Caracteristicas .contenedor{
-        margin: 0 auto;
+    #Caracteristicas{
+        height: 700px;
     }
   
         

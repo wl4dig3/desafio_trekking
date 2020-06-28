@@ -1,9 +1,31 @@
 #Precios h1 {
     text-align: center;
+    color: $white;
 }
 #Precios .row {
     margin: 0 auto;
-    width: 80%;
+    width: 65%;
+    
+}
+#Precios {
+    background-color: #333745;
+    position: relative;
+
+}
+#Precios img {
+    position: absolute;
+    top: -80px;
+    z-index: -1;
+}
+#Precios .card-body hr {
+    height: 1px;
+    background-color: darkgray;
+}
+#Precios .card{
+    height: 25rem;
+}
+#Precios .card-body .lis {
+    visibility: hidden;
 }
 
 
@@ -11,7 +33,6 @@
 // mediaquery
 @media (min-width:768px) {
     #Precios {
-        // display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(1,500px);
         align-items: center;
@@ -21,7 +42,17 @@
         width: 80%;
         margin: 0 auto;
     }
+    #Precios .row {
+        margin-bottom: 2rem;
+        width: 55%;
+    }
+        
     #Precios .row .col {
-    width: 50%;
+    width: 36%;
+    }
+    #Precios img {
+        position: absolute;
+        top: -200px;
+        z-index: -1;
     }
 }
