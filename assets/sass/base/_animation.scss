@@ -1,0 +1,14 @@
+ @keyframes opacidad {
+     0% {opacity: 0;}
+     25% {opacity: .25;}
+     50% {opacity: .5;}
+     75% {opacity: .75;}
+     100% {opacity: 1;}
+     75% {opacity: .75;}
+     50% {opacity: .5;}
+     25% {opacity: .25;}
+     0% {opacity: 0;}
+ }
+#Caracteristicas img:hover {
+    animation: opacidad 4s linear 1s infinite;
+}

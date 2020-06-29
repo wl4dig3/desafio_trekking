@@ -1,12 +1,41 @@
-.wrap {
-  padding: 0 100px; }
-
 img {
   width: 100%; }
 
 h1 {
   font-family: Raleway;
   font-weight: 700; }
+
+h2 {
+  font-family: 'open sans', 'sans serif';
+  font-weight: 700; }
+
+h4, h5 {
+  font-family: 'open-sans', Helvetica, sans-serif; }
+
+h4 {
+  font-weight: 700; }
+
+@keyframes opacidad {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: .25; }
+  50% {
+    opacity: .5; }
+  75% {
+    opacity: .75; }
+  100% {
+    opacity: 1; }
+  75% {
+    opacity: .75; }
+  50% {
+    opacity: .5; }
+  25% {
+    opacity: .25; }
+  0% {
+    opacity: 0; } }
+#Caracteristicas img:hover {
+  animation: opacidad 4s linear 1s infinite; }
 
 #Precios .row {
   display: flex;
@@ -216,7 +245,7 @@ h1 {
     width: 280px;
     position: absolute;
     top: 150px;
-    margin-left: 125px; } }
+    margin-left: 150px; } }
 #Caracteristicas .contenedor {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -228,7 +257,9 @@ h1 {
   text-align: center; }
 
 #Caracteristicas .caracteristicas__texto {
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 2rem;
+  margin-top: -5rem; }
 
 #Caracteristicas .contenedor {
   width: 70%;
@@ -244,7 +275,8 @@ h1 {
     margin: 0 auto; }
 
   #Caracteristicas .caracteristicas__texto {
-    width: 100%; }
+    width: 100%;
+    padding: 9rem 0 4rem 2rem; }
 
   #Caracteristicas {
     height: 700px; } }
@@ -295,7 +327,7 @@ h1 {
 
   #Precios img {
     position: absolute;
-    top: -200px;
+    top: -262px;
     z-index: -1; } }
 footer {
   background-color: #221d23;

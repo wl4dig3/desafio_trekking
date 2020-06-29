@@ -2,9 +2,9 @@
 @import 'abstracts/variables';
 
 // base
-@import 'base/base';
 @import'base/reset';
 @import 'base/typography';
+@import 'base/animation';
 
 // components 
 @import 'components/navbar';
@@ -17,5 +17,3 @@
 @import 'layout/section-precios';
 @import 'layout/footer';
 
-// vendors
-// @import 'vendors/bootstrap-4.5.0/bootstrap-reboot';

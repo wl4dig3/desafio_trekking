@@ -12,6 +12,8 @@
 
 #Caracteristicas .caracteristicas__texto {
   width: 100%;
+  padding-bottom: 2rem;
+  margin-top: -5rem;
 }
 
 #Caracteristicas .contenedor {
@@ -30,6 +32,7 @@
   }
   #Caracteristicas .caracteristicas__texto {
     width: 100%;
+    padding: 9rem 0 4rem 2rem;
   }
   #Caracteristicas {
     height: 700px;
